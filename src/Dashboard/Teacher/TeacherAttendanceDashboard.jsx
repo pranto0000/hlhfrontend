@@ -97,7 +97,7 @@ const TeacherAttendanceDashboard = () => {
 
       {/* Attendance Table */}
       {filteredStudents.length === 0 ? (
-        <div>No students available for today.</div>
+        <div>No Employee available for today.</div>
       ) : (
         <div>
           <table className="w-full border-collapse border border-gray-300">
