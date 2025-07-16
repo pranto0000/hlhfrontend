@@ -75,7 +75,7 @@ const TeacherAttendanceDashboard = () => {
       {/* Search Bar */}
       <input
         type="text"
-        placeholder="Search students..."
+        placeholder="Search Employee..."
         value={searchQuery}
         onChange={handleSearch}
         className="mb-4 px-4 py-2 border rounded w-full"
@@ -83,7 +83,7 @@ const TeacherAttendanceDashboard = () => {
 
       {/* Attendance Summary */}
       <div className="summary mb-4">
-        <p>Total Students: {filteredStudents.length}</p>
+        <p>Total Employee: {filteredStudents.length}</p>
         <p>
           Present:{" "}
           {attendanceRecords.filter((record) => record.presentStartTime).length}
